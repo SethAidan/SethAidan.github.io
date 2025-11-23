@@ -25,6 +25,12 @@ body{
   padding-bottom: 20px;
 }
 
+.title2{
+  text-align: left;
+  color: black;
+  padding-bottom: 10px;
+}
+
 .mainBody{
   background-color:white;
 }
