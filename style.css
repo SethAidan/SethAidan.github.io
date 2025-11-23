@@ -18,6 +18,17 @@ body{
     background-color:white;
 }
 
+#inlineBlock{
+  background-color: green;
+  left: 0;
+  top: 0;
+  width: calc(100% + 40px); /* override body padding */
+  margin-left: -20px;       /* cancel padding */
+  margin-right: -20px;
+  margin-top: -20px;
+  color: lightgreen;
+}
+
 .title1{
   text-align: center;
   color: black;
@@ -33,6 +44,11 @@ body{
 
 .mainBody{
   background-color:white;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 30px;
+  border-spacing: 20px;
 }
 
 .footer{
@@ -56,17 +72,9 @@ body{
 
 #main{
     text-align: center;
-    color: limegreen;
+    color: lightgreen;
     font-size: 300%;
     padding-bottom: 20px;
-}
-
-#profileInfoTab{
-    max-width: 80%;
-    margin: auto;
-    margin-top: 0%;
-    margin-bottom: 30px;
-    border-spacing: 20px;
 }
 
 #headshot{
